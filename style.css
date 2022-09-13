@@ -66,7 +66,7 @@ nav button {
 header {
   height: 100vh;
   background:
-    url(images/icon-arrow-down.svg) no-repeat bottom 35% center,
+    url(images/icon-arrow-down.svg) no-repeat top 25rem center,
     url(images/mobile/image-header.jpg) no-repeat bottom 30% center;
   background-size: auto, cover;
 }
@@ -76,7 +76,35 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  padding-top: 60%;
+  padding-top: 30vh;
+}
+
+.section-img {
+  height: 35vh;
+  background: url(images/mobile/image-transform.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.section-desc {
+  /* margin: 2rem; */
+  /* text-align: center; */
+}
+
+.section__brand {
+  /* background-color: aqua; */
+  /* padding-top: 50vh; */
+  /* background: url(images/mobile/image-transform.jpg) no-repeat; */
+  /* background-size: contain; */
+}
+
+.section__brand-img {
+  /* content: url(images/mobile/image-transform.jpg); */
+  /* width: 100%; */
+  /* height: 50%; */
+}
+
+.section__brand-desc {
+  /* background-color: azure; */
 }
 
 .attribution {
