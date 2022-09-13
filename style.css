@@ -72,6 +72,7 @@ button {
   border: none;
   border-radius: 5px;
   background: linear-gradient(var(--gradient-bottom), var(--gradient-top));
+  font-size: 1rem;
 }
 
 nav {
@@ -195,29 +196,31 @@ footer {
   background-color: var(--footer-bg);
 }
 
-.footer__logo {
-  filter: var(--footer-icon);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.footer__link {
-  display: flex;
-  justify-content: space-around;
-}
-
 footer button {
-  /* .footer__link button { */
   background: none;
   text-transform: capitalize;
   font-family: inherit;
   color: var(--footer);
 }
 
-.footer__media {
+.footer__logo {
+  filter: var(--footer-icon);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3rem;
+}
+
+.footer__link {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.footer__socials {
   display: flex;
   justify-content: center;
+  margin: 5rem;
 }
 
 .attribution {
