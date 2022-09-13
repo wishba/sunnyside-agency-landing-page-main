@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
 :root {
-  /* ### Primary */
   --gradient-top: hsl(7, 99%, 70%);
   --gradient-bottom: hsl(51, 100%, 49%);
   --graphic: hsl(167, 40%, 24%);
@@ -11,7 +10,6 @@
   --footer-bg: hsla(168, 34%, 41%, 0.5);
   --footer-icon: invert(47%) sepia(36%) saturate(483%) hue-rotate(118deg) brightness(95%) contrast(90%);
 
-  /* ### Neutral */
   --section-header: hsl(212, 27%, 19%);
   --testimonial-text: hsl(213, 9%, 39%);
   --section-desc: hsl(232, 10%, 55%);
@@ -123,7 +121,7 @@ header {
 .section__photography {
   position: absolute;
   bottom: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .section__graphic>* {
@@ -269,30 +267,21 @@ footer button {
     font-size: 2.5rem;
   }
 
-  /* .section-container {
-    height: 1rem;
-  } */
-
   .section-container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .section__graphic-img {
-    /* content: url(images/desktop/image-graphic-design.jpg); */
     height: 50vw;
     content: none;
-    /* background-color: red; */
     background: url(images/desktop/image-graphic-design.jpg) no-repeat top center;
     background-size: 50vw 50vw;
   }
 
   .section__photography-img {
-    /* content: url(images/desktop/image-photography.jpg); */
     height: 50vw;
     content: none;
-    /* width: auto; */
-    /* background-color: red; */
     background: url(images/desktop/image-photography.jpg) no-repeat top center;
     background-size: 50vw 50vw;
   }
@@ -303,5 +292,3 @@ footer button {
     text-align: center;
   }
 }
-
-/* tinggi sama lebar sama */
