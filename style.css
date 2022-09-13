@@ -231,3 +231,12 @@ footer button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width:600px) {
+  header {
+    background:
+      url(images/icon-arrow-down.svg) no-repeat top 25rem center,
+      url(images/desktop/image-header.jpg) no-repeat bottom 30% center;
+    background-size: auto, cover;
+  }
+}
