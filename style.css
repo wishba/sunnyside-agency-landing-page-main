@@ -152,7 +152,6 @@ header {
   font-family: 'Fraunces', serif;
   font-weight: 900;
   color: var(--testimonial);
-  /* color: var(--section-desc); */
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -161,6 +160,7 @@ header {
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
+  margin-top: 4rem;
 }
 
 .section__testimonial-say {
