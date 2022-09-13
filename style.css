@@ -11,7 +11,7 @@
 
   /* ### Neutral */
   --section-header: hsl(212, 27%, 19%);
-  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --testimonial-text: hsl(213, 9%, 39%);
   --section-desc: hsl(232, 10%, 55%);
   --testimonial: hsl(210, 4%, 67%);
   --header: hsl(0, 0%, 100%);
@@ -164,7 +164,7 @@ header {
 }
 
 .section__testimonial-say {
-  color: var(--Very-dark-grayish-blue);
+  color: var(--testimonial-text);
 }
 
 .section__testimonial-name {
@@ -188,6 +188,23 @@ header {
   background-position: top left, top right, bottom left, bottom right;
   height: 100vw;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer button {
+  background: none;
+  text-transform: capitalize;
+  font-family: inherit;
+  color: var(--graphic);
+  /* color: var(--footer); */
+}
+
+/* .footer__logo {
+  color: var(--graphic);
+} */
 
 .attribution {
   font-size: 11px;
