@@ -245,14 +245,19 @@ footer button {
     grid-template-columns: 1fr 1fr;
   }
 
-  .section-desc {
-    margin: auto;
-    text-align: left;
-  }
-
   .section__transform {
     height: 50vw;
     background-image: url(images/desktop/image-transform.jpg);
+    grid-area: 1/2/2/3;
+  }
+
+  .section__transform-desc {
+    grid-area: 1/1/2/2;
+  }
+
+  .section-desc {
+    margin: auto;
+    text-align: left;
   }
 
   .section__stand {
