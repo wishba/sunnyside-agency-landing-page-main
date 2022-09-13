@@ -246,7 +246,7 @@ footer button {
   }
 
   .section__transform {
-    height: 50vw;
+    height: 50vh;
     background-image: url(images/desktop/image-transform.jpg);
     grid-area: 1/2/2/3;
   }
@@ -255,13 +255,13 @@ footer button {
     grid-area: 1/1/2/2;
   }
 
-  .section-desc {
-    margin: auto;
-    text-align: left;
+  .section__stand {
+    height: 50vh;
+    background-image: url(images/desktop/image-stand-out.jpg);
   }
 
-  .section__stand {
-    height: 50vw;
-    background-image: url(images/desktop/image-stand-out.jpg);
+  .section-desc {
+    margin: auto 10vw;
+    text-align: left;
   }
 }
