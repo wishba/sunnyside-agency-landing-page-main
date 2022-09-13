@@ -1,23 +1,21 @@
-/* ## Colors
-
-### Primary
-
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
-
-### Neutral
-
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%) */
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+  /* ### Primary */
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --txt-graphic-design: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+
+  /* ### Neutral */
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --header: hsl(0, 0%, 100%);
+}
 
 html {
   box-sizing: border-box;
@@ -67,7 +65,18 @@ nav button {
 
 header {
   height: 100vh;
-  background: url(images/mobile/image-header.jpg) no-repeat center;
+  background:
+    url(images/icon-arrow-down.svg) no-repeat bottom 35% center,
+    url(images/mobile/image-header.jpg) no-repeat bottom 30% center;
+  background-size: auto, cover;
+}
+
+header h1 {
+  color: var(--header);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 60%;
 }
 
 .attribution {
