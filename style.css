@@ -264,4 +264,8 @@ footer button {
     margin: auto 10vw;
     text-align: left;
   }
+
+  .section-desc h2 {
+    font-size: 2.5rem;
+  }
 }
