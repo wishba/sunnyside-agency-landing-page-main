@@ -157,6 +157,12 @@ header {
   letter-spacing: 3px;
 }
 
+.section__testimonial img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
 .section__testimonial-say {
   color: var(--Very-dark-grayish-blue);
 }
