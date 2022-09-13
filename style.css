@@ -268,4 +268,23 @@ footer button {
   .section-desc h2 {
     font-size: 2.5rem;
   }
+
+  .section-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__graphic-img {
+    content: url(images/desktop/image-graphic-design.jpg);
+  }
+
+  .section__photography-img {
+    content: url(images/desktop/image-photography.jpg);
+  }
+
+  .section__graphic,
+  .section__photography {
+    bottom: 3rem;
+    text-align: center;
+  }
 }
