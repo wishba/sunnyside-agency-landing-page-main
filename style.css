@@ -269,17 +269,32 @@ footer button {
     font-size: 2.5rem;
   }
 
+  /* .section-container {
+    height: 1rem;
+  } */
+
   .section-container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .section__graphic-img {
-    content: url(images/desktop/image-graphic-design.jpg);
+    /* content: url(images/desktop/image-graphic-design.jpg); */
+    height: 50vh;
+    content: none;
+    /* background-color: red; */
+    background: url(images/desktop/image-graphic-design.jpg) no-repeat top center;
+    background-size: 50vw auto;
   }
 
   .section__photography-img {
-    content: url(images/desktop/image-photography.jpg);
+    /* content: url(images/desktop/image-photography.jpg); */
+    height: 50vh;
+    content: none;
+    /* width: auto; */
+    /* background-color: red; */
+    background: url(images/desktop/image-photography.jpg) no-repeat top center;
+    background-size: 50vw auto;
   }
 
   .section__graphic,
@@ -288,3 +303,5 @@ footer button {
     text-align: center;
   }
 }
+
+/* tinggi sama lebar sama */
