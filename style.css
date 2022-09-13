@@ -5,7 +5,7 @@
   /* ### Primary */
   --gradient-top: hsl(7, 99%, 70%);
   --gradient-bottom: hsl(51, 100%, 49%);
-  --txt-graphic-design: hsl(167, 40%, 24%);
+  --graphic: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
 
@@ -71,7 +71,6 @@ button {
   border: none;
   border-radius: 5px;
   background: linear-gradient(var(--gradient-bottom), var(--gradient-top));
-  /* opacity: 0.5; */
 }
 
 nav {
@@ -96,7 +95,8 @@ header {
 
 .section-img {
   height: 35vh;
-  background: url(images/mobile/image-transform.jpg) no-repeat center;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -105,12 +105,42 @@ header {
   margin: 5rem 2rem;
 }
 
-/* .section-more { */
-/* background: linear-gradient(var(--gradient-bottom), var(--gradient-top)); */
-/* opacity: .1; */
-/* background-image: conic-gradient(red 0deg, red 90deg, blue 90deg, blue 270deg, red 270deg); */
-/* background-image: conic-gradient(red 0deg, red 90deg, blue 90deg, blue 180deg, blue 180deg, blue 270deg, red 270deg); */
-/* } */
+.section__transform {
+  background-image: url(images/mobile/image-transform.jpg);
+}
+
+.section__stand {
+  background-image: url(images/mobile/image-stand-out.jpg);
+}
+
+.section-container {
+  position: relative;
+}
+
+.section__graphic,
+.section__photography {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.section__graphic>* {
+  color: var(--graphic);
+}
+
+.section__photography>* {
+  color: var(--graphic);
+}
+
+.section__graphic-img {
+  content: url(images/mobile/image-graphic-design.jpg);
+  width: 100%;
+}
+
+.section__photography-img {
+  content: url(images/mobile/image-photography.jpg);
+  width: 100%;
+}
 
 .attribution {
   font-size: 11px;
