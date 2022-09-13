@@ -8,6 +8,8 @@
   --graphic: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
+  --footer-bg: hsla(168, 34%, 41%, 0.5);
+  --footer-icon: invert(47%) sepia(36%) saturate(483%) hue-rotate(118deg) brightness(95%) contrast(90%);
 
   /* ### Neutral */
   --section-header: hsl(212, 27%, 19%);
@@ -190,21 +192,27 @@ header {
 }
 
 footer {
+  background-color: var(--footer-bg);
+}
+
+.footer__logo {
+  filter: var(--footer-icon);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer__link {
   display: flex;
   justify-content: space-around;
 }
 
-footer button {
+.footer__link>button {
   background: none;
   text-transform: capitalize;
   font-family: inherit;
-  color: var(--graphic);
-  /* color: var(--footer); */
+  color: var(--footer);
 }
-
-/* .footer__logo {
-  color: var(--graphic);
-} */
 
 .attribution {
   font-size: 11px;
