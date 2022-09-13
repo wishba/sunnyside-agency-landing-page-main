@@ -177,6 +177,18 @@ header {
   color: var(--testimonial);
 }
 
+.section__img {
+  background-image:
+    url(images/mobile/image-gallery-milkbottles.jpg),
+    url(images/mobile/image-gallery-orange.jpg),
+    url(images/mobile/image-gallery-cone.jpg),
+    url(images/mobile/image-gallery-sugar-cubes.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 50vw, 50vw, 50vw, 50vw;
+  background-position: top left, top right, bottom left, bottom right;
+  height: 100vw;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
