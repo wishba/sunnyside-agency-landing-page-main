@@ -3,8 +3,8 @@
 
 :root {
   /* ### Primary */
-  --Soft-red: hsl(7, 99%, 70%);
-  --Yellow: hsl(51, 100%, 49%);
+  --gradient-top: hsl(7, 99%, 70%);
+  --gradient-bottom: hsl(51, 100%, 49%);
   --txt-graphic-design: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -69,6 +69,9 @@ button {
   text-align: center;
   padding: 5px 10px;
   border: none;
+  border-radius: 5px;
+  background: linear-gradient(var(--gradient-bottom), var(--gradient-top));
+  /* opacity: 0.5; */
 }
 
 nav {
@@ -101,6 +104,13 @@ header {
   text-align: center;
   margin: 5rem 2rem;
 }
+
+/* .section-more { */
+/* background: linear-gradient(var(--gradient-bottom), var(--gradient-top)); */
+/* opacity: .1; */
+/* background-image: conic-gradient(red 0deg, red 90deg, blue 90deg, blue 270deg, red 270deg); */
+/* background-image: conic-gradient(red 0deg, red 90deg, blue 90deg, blue 180deg, blue 180deg, blue 270deg, red 270deg); */
+/* } */
 
 .attribution {
   font-size: 11px;
