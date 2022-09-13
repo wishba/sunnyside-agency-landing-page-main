@@ -207,11 +207,17 @@ footer {
   justify-content: space-around;
 }
 
-.footer__link>button {
+footer button {
+  /* .footer__link button { */
   background: none;
   text-transform: capitalize;
   font-family: inherit;
   color: var(--footer);
+}
+
+.footer__media {
+  display: flex;
+  justify-content: center;
 }
 
 .attribution {
