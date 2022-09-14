@@ -18,7 +18,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   font-size: 18px;
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
@@ -61,4 +61,24 @@ nav {
 
 .nav__link>button {
   display: none;
+}
+
+.section__brand-img {
+  height: 100vw;
+  width: 100vw;
+  background: url(images/mobile/image-transform.jpg) center;
+  background-size: contain;
+}
+
+.section__brand {
+  text-align: center;
+  margin: 2rem;
+}
+
+.section__brand>h2 {
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.section__brand>p {
+  color: var(--Dark-grayish-blue);
 }
