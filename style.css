@@ -242,6 +242,18 @@ footer button {
     background-size: auto 50vw;
   }
 
+  .section__audience-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__audience-img {
+    height: 50vw;
+    width: 50vw;
+    background: url(images/desktop/image-stand-out.jpg) center;
+    background-size: auto 50vw;
+  }
+
   .section__brand,
   .section__audience {
     text-align: left;
