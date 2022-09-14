@@ -230,28 +230,14 @@ footer button {
     display: none;
   }
 
-  .section__brand-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .section__brand-img {
-    height: 50vw;
-    width: 50vw;
-    background: url(images/desktop/image-transform.jpg) center;
-    background-size: auto 50vw;
-  }
-
+  .section__brand-container,
   .section__audience-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .section__audience-img {
-    height: 50vw;
-    width: 50vw;
-    background: url(images/desktop/image-stand-out.jpg) center;
-    background-size: auto 50vw;
+  .section__audience {
+    grid-area: 1/1/2/2;
   }
 
   .section__brand,
@@ -264,5 +250,19 @@ footer button {
   .section__audience>h2 {
     font-size: 2.5rem;
     margin-top: 0;
+  }
+
+  .section__brand-img {
+    height: 50vw;
+    width: 50vw;
+    background: url(images/desktop/image-transform.jpg) center;
+    background-size: auto 50vw;
+  }
+
+  .section__audience-img {
+    height: 50vw;
+    width: 50vw;
+    background: url(images/desktop/image-stand-out.jpg) center;
+    background-size: auto 50vw;
   }
 }
