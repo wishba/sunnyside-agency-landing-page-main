@@ -72,23 +72,34 @@ nav {
   height: 100vw;
   width: 100vw;
   background: url(images/mobile/image-transform.jpg) center;
-  background-size: contain;
+  background-size: auto 100vw;
 }
 
-.section__brand {
+.section__audience-img {
+  height: 100vw;
+  width: 100vw;
+  background: url(images/mobile/image-stand-out.jpg) center;
+  background-size: auto 100vw;
+}
+
+.section__brand,
+.section__audience {
   text-align: center;
   margin: 2rem;
 }
 
-.section__brand>h2 {
+.section__brand>h2,
+.section__audience>h2 {
   color: var(--section-h2);
 }
 
-.section__brand>p {
+.section__brand>p,
+.section__audience>p {
   color: var(--section-p);
 }
 
-.section__brand>button {
+.section__brand>button,
+.section__audience>button {
   font-family: 'Fraunces', serif;
   font-weight: 900;
   text-transform: uppercase;
