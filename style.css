@@ -161,3 +161,8 @@ nav {
 .section__testimony img+p {
   color: var(--testimony-p);
 }
+
+.section__testimony h3 {
+  color: var(--section-h2);
+  margin: 2.5rem auto 0;
+}
