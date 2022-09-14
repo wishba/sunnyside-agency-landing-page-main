@@ -194,8 +194,9 @@ footer {
   text-align: center;
 }
 
-footer img {
+footer>img {
   filter: var(--footer-filter);
+  margin: 5rem auto 2rem;
 }
 
 footer button {
