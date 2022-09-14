@@ -283,4 +283,9 @@ footer button {
   .section__photo {
     padding: 5vw 10vw;
   }
+
+  .section__testimony-flex {
+    display: flex;
+    margin: 0 10vw;
+  }
 }
