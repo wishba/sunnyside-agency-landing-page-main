@@ -189,4 +189,5 @@ nav {
 
 footer {
   background-color: var(--footer-bg);
+  text-align: center;
 }
