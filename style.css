@@ -14,7 +14,7 @@
   --footer: hsl(168, 34%, 41%);
 
   --section-h2: hsl(212, 27%, 19%);
-  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --testimony-p: hsl(213, 9%, 39%);
   --section-p: hsl(232, 10%, 55%);
   --testimony: hsl(210, 4%, 67%);
   --head: hsl(0, 0%, 100%);
@@ -149,9 +149,15 @@ nav {
   color: var(--testimony);
   text-transform: uppercase;
   letter-spacing: .2rem;
+  margin-top: 5rem;
 }
 
 .section__testimony img {
   border-radius: 50%;
   width: 5rem;
+  margin-top: 3rem;
+}
+
+.section__testimony img+p {
+  color: var(--testimony-p);
 }
