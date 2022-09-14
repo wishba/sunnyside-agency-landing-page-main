@@ -282,17 +282,19 @@ footer button {
   }
 
   .section__brand-img {
-    height: 50vw;
+    height: auto;
+    min-height: 50vw;
     width: 50vw;
-    background: url(images/desktop/image-transform.jpg) center;
-    background-size: auto 50vw;
+    background: url(images/desktop/image-transform.jpg) center no-repeat;
+    background-size: cover;
   }
 
   .section__audience-img {
-    height: 50vw;
+    height: auto;
+    min-height: 50vw;
     width: 50vw;
     background: url(images/desktop/image-stand-out.jpg) center;
-    background-size: auto 50vw;
+    background-size: cover;
   }
 
   .section__graphic-container {
