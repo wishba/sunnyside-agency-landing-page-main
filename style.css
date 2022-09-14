@@ -237,7 +237,7 @@ footer button {
     grid-template-columns: 1fr 1fr;
   }
 
-  .section__audience {
+  .section__brand {
     grid-area: 1/1/2/2;
   }
 
@@ -287,5 +287,15 @@ footer button {
   .section__testimony-flex {
     display: flex;
     margin: 0 10vw;
+  }
+
+  .section__gallery {
+    height: 30vw;
+    background:
+      url(images/desktop/image-gallery-milkbottles.jpg) left center no-repeat,
+      url(images/desktop/image-gallery-orange.jpg) left 25vw center no-repeat,
+      url(images/desktop/image-gallery-cone.jpg) left 50vw center no-repeat,
+      url(images/desktop/image-gallery-sugarcubes.jpg) right center no-repeat;
+    background-size: 25vw auto;
   }
 }
