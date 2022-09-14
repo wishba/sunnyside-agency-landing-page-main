@@ -11,8 +11,10 @@
   /* --Yellow: hsl(51, 100%, 49%); */
   --txt-graphic: hsl(167, 40%, 24%);
   --txt-photography: hsl(198, 62%, 26%);
+  /* --footer: #458c7e; */
   --footer: hsl(168, 34%, 41%);
   --footer-bg: hsla(168, 34%, 41%, 0.5);
+  --footer-filter: invert(50%) sepia(27%) saturate(619%) hue-rotate(118deg) brightness(91%) contrast(92%);
 
   --section-h2: hsl(212, 27%, 19%);
   --testimony-p: hsl(213, 9%, 39%);
@@ -190,4 +192,16 @@ nav {
 footer {
   background-color: var(--footer-bg);
   text-align: center;
+}
+
+footer img {
+  filter: var(--footer-filter);
+}
+
+footer button {
+  color: var(--footer);
+  background: none;
+  border: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
 }
