@@ -18,6 +18,8 @@
   --section-p: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
   --head: hsl(0, 0%, 100%);
+
+  --height: 35rem;
 }
 
 body {
@@ -46,7 +48,7 @@ h3 {
 
 header {
   text-align: center;
-  height: 35rem;
+  height: var(--height);
   background: url(images/mobile/image-header.jpg) no-repeat center bottom;
   background-size: cover;
 }
@@ -107,4 +109,10 @@ nav {
   border: none;
   border-radius: .5rem;
   padding: .5rem 1rem;
+}
+
+.section__graphic {
+  height: var(--height);
+  background: url(images/mobile/image-graphic-design.jpg);
+  background-size: 100vw auto;
 }
