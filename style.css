@@ -247,4 +247,10 @@ footer button {
     text-align: left;
     margin: auto 10vw;
   }
+
+  .section__brand>h2,
+  .section__audience>h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
 }
