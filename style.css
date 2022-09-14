@@ -7,8 +7,8 @@
   /* --btn-bg: linear-gradient(var(--gradient-top), var(--gradient-bot)); */
   --btn-bg: conic-gradient(var(--gradient-top) 0deg, var(--gradient-top) 90deg, var(--gradient-bot) 90deg, var(--gradient-bot) 270deg, var(--gradient-top) 270deg);
 
-  /* --Soft-red: hsl(7, 99%, 70%); */
-  /* --Yellow: hsl(51, 100%, 49%); */
+  /* --soft-red: hsl(7, 99%, 70%); */
+  --yellow: hsl(51, 100%, 49%);
   --txt-graphic: hsl(167, 40%, 24%);
   --txt-photography: hsl(198, 62%, 26%);
   /* --footer: #458c7e; */
@@ -74,7 +74,7 @@ nav {
   padding: 1rem 0;
 }
 
-.nav__link>button {
+.nav__page {
   display: block;
   background: none;
   border: none;
@@ -82,6 +82,19 @@ nav {
   font-weight: 600;
   color: var(--testimony-p);
   margin: 1rem auto;
+}
+
+.nav__contact {
+  display: block;
+  border: none;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: var(--section-h2);
+  margin: 1rem auto;
+  background: var(--yellow);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
 }
 
 .nav__menu {
