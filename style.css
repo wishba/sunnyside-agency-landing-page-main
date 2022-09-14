@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
 :root {
-  --Soft-red: hsl(7, 99%, 70%);
-  --Yellow: hsl(51, 100%, 49%);
+  --gradient-top: hsla(51, 100%, 49%, 0.2);
+  --gradient-bot: hsla(7, 99%, 70%, 0.2);
+  /* --btn-bg: linear-gradient(var(--gradient-top), var(--gradient-bot)); */
+  --btn-bg: conic-gradient(var(--gradient-top) 0deg, var(--gradient-top) 90deg, var(--gradient-bot) 90deg, var(--gradient-bot) 270deg, var(--gradient-top) 270deg);
+
+  /* --Soft-red: hsl(7, 99%, 70%); */
+  /* --Yellow: hsl(51, 100%, 49%); */
   --txt-graphic: hsl(167, 40%, 24%);
   --txt-photography: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
 
-  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --section-h2: hsl(212, 27%, 19%);
   --Very-dark-grayish-blue: hsl(213, 9%, 39%);
-  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --section-p: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
   --head: hsl(0, 0%, 100%);
 }
@@ -26,7 +31,7 @@ body {
 
 h1 {
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--head);
   font-size: 2.5rem;
   letter-spacing: .3rem;
@@ -36,7 +41,7 @@ h1 {
 h2,
 h3 {
   font-family: 'Fraunces', serif;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 header {
@@ -76,9 +81,19 @@ nav {
 }
 
 .section__brand>h2 {
-  color: var(--Very-dark-desaturated-blue);
+  color: var(--section-h2);
 }
 
 .section__brand>p {
-  color: var(--Dark-grayish-blue);
+  color: var(--section-p);
+}
+
+.section__brand>button {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: var(--btn-bg);
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
 }
