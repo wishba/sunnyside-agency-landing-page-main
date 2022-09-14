@@ -150,3 +150,8 @@ nav {
   text-transform: uppercase;
   letter-spacing: .2rem;
 }
+
+.section__testimony img {
+  border-radius: 50%;
+  width: 5rem;
+}
