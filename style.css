@@ -12,6 +12,7 @@
   --txt-graphic: hsl(167, 40%, 24%);
   --txt-photography: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
+  --footer-bg: hsla(168, 34%, 41%, 0.5);
 
   --section-h2: hsl(212, 27%, 19%);
   --testimony-p: hsl(213, 9%, 39%);
@@ -184,4 +185,8 @@ nav {
     url(images/mobile/image-gallery-cone.jpg) bottom left no-repeat,
     url(images/mobile/image-gallery-sugar-cubes.jpg) bottom right no-repeat;
   background-size: 50vw;
+}
+
+footer {
+  background-color: var(--footer-bg);
 }
