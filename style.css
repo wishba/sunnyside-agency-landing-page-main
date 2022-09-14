@@ -111,8 +111,17 @@ nav {
   padding: .5rem 1rem;
 }
 
-.section__graphic {
+.section__graphic-container {
   height: var(--height);
   background: url(images/mobile/image-graphic-design.jpg);
   background-size: 100vw auto;
+  position: relative;
+}
+
+.section__graphic {
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: var(--txt-graphic);
 }
