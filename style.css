@@ -214,3 +214,19 @@ footer button {
 .footer__socials>* {
   margin: 3rem .5rem;
 }
+
+@media (min-width:600px) {
+  header {
+    background: url(images/desktop/image-header.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 43rem;
+  }
+
+  .nav__link button {
+    display: inline-block;
+  }
+
+  .nav__link img {
+    display: none;
+  }
+}
