@@ -61,31 +61,31 @@ header>img {
 }
 
 nav {
-  display: flex;
-  padding: 3rem 1.5rem;
+  /* display: flex;
+  padding: 3rem 1.5rem; */
 }
 
 .nav__link {
-  position: absolute;
+  /* position: absolute;
   right: 1.5rem;
   top: 6rem;
   background: var(--head);
   width: calc(100vw - 3rem);
-  padding: 1rem 0;
+  padding: 1rem 0; */
 }
 
 .nav__page {
-  display: block;
+  /* display: block;
   background: none;
   border: none;
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   color: var(--testimony-p);
-  margin: 1rem auto;
+  margin: 1rem auto; */
 }
 
 .nav__contact {
-  display: block;
+  /* display: block;
   border: none;
   font-family: 'Fraunces', serif;
   font-weight: 700;
@@ -94,11 +94,11 @@ nav {
   background: var(--yellow);
   padding: 1rem 2rem;
   border-radius: 2rem;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 .nav__menu {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .section__brand-img {
@@ -251,11 +251,11 @@ footer button {
   }
 
   .nav__link button {
-    display: inline-block;
+    /* display: inline-block; */
   }
 
   .nav__link img {
-    display: none;
+    /* display: none; */
   }
 
   .section__brand-container,
@@ -266,7 +266,7 @@ footer button {
   }
 
   .section__brand {
-    grid-area: 1/1/2/2;
+    /* grid-area: 1/1/2/2; */
   }
 
   .section__brand,
@@ -326,4 +326,53 @@ footer button {
       url(images/desktop/image-gallery-sugarcubes.jpg) right center no-repeat;
     background-size: 25vw auto;
   }
+
+  nav {
+    /* display: flex;
+    padding: 3rem 1.5rem; */
+  }
+
+  .nav__link {
+    /* position: static; */
+    /* background: none; */
+    /* width: auto; */
+    /* padding: 0; */
+    /* position: relative; */
+    /* 
+    right: 1.5rem;
+    top: 6rem;
+     */
+  }
+
+  .nav__page {
+    /* margin: auto; */
+    /* color: var(--head); */
+    /* display: block;
+    background: none;
+    border: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    */
+  }
+
+  .nav__contact {
+    /* margin: 0; */
+    /* background: var(--head); */
+    /* padding: 0; */
+    /* position: absolute; */
+    /* top: 1rem; */
+    /* 
+    display: block;
+    border: none;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--section-h2);
+    border-radius: 2rem;
+    text-transform: uppercase; */
+  }
+
+  .nav__menu {
+    /* margin-left: auto; */
+  }
+
 }
