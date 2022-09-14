@@ -118,10 +118,25 @@ nav {
   position: relative;
 }
 
+.section__photo-container {
+  height: var(--height);
+  background: url(images/mobile/image-photography.jpg);
+  background-size: 100vw auto;
+  position: relative;
+}
+
 .section__graphic {
   padding: 2rem;
   position: absolute;
   bottom: 0;
   text-align: center;
   color: var(--txt-graphic);
+}
+
+.section__photo {
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: var(--txt-photography);
 }
