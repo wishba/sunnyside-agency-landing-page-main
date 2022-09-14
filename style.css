@@ -162,7 +162,11 @@ nav {
   color: var(--testimony-p);
 }
 
-.section__testimony h3 {
+.section__testimony p+h3 {
   color: var(--section-h2);
   margin: 2.5rem auto 0;
+}
+
+.section__testimony h3+p {
+  color: var(--testimony);
 }
