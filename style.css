@@ -66,11 +66,26 @@ nav {
 }
 
 .nav__link {
-  margin-left: auto;
+  position: absolute;
+  right: 1.5rem;
+  top: 6rem;
+  background: var(--head);
+  width: calc(100vw - 3rem);
+  padding: 1rem 0;
 }
 
 .nav__link>button {
-  display: none;
+  display: block;
+  background: none;
+  border: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: var(--testimony-p);
+  margin: 1rem auto;
+}
+
+.nav__menu {
+  margin-left: auto;
 }
 
 .section__brand-img {
