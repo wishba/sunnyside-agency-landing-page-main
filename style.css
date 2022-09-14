@@ -141,15 +141,19 @@ nav {
   color: var(--txt-photography);
 }
 
-.section__testimony {
+.section__testimony-container {
   text-align: center;
 }
 
-.section__testimony>h3 {
+.section__testimony-container>h3 {
   color: var(--testimony);
   text-transform: uppercase;
   letter-spacing: .2rem;
   margin-top: 5rem;
+}
+
+.section__testimony {
+  margin: 1.5rem;
 }
 
 .section__testimony img {
@@ -164,7 +168,7 @@ nav {
 
 .section__testimony p+h3 {
   color: var(--section-h2);
-  margin: 2.5rem auto 0;
+  margin: 2rem auto 0;
 }
 
 .section__testimony h3+p {
