@@ -266,4 +266,21 @@ footer button {
     background: url(images/desktop/image-stand-out.jpg) center;
     background-size: auto 50vw;
   }
+
+  .section__graphic-container {
+    height: 50vw;
+    background: url(images/desktop/image-graphic-design.jpg) center;
+    background-size: auto 50vw;
+  }
+
+  .section__photo-container {
+    height: 50vw;
+    background: url(images/desktop/image-photography.jpg) center;
+    background-size: auto 50vw;
+  }
+
+  .section__graphic,
+  .section__photo {
+    padding: 5vw 10vw;
+  }
 }
