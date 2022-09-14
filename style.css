@@ -41,7 +41,9 @@ h3 {
 
 header {
   text-align: center;
-  background-color: gray;
+  height: 35rem;
+  background: url(images/mobile/image-header.jpg) no-repeat center bottom;
+  background-size: cover;
 }
 
 header>img {
