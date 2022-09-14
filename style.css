@@ -231,7 +231,8 @@ footer button {
   }
 
   .section__brand-container,
-  .section__audience-container {
+  .section__audience-container,
+  .section-graph-photo {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
