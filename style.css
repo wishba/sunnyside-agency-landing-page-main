@@ -206,3 +206,11 @@ footer button {
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
 }
+
+.footer__link>* {
+  margin: 1rem;
+}
+
+.footer__socials>* {
+  margin: 3rem .5rem;
+}
