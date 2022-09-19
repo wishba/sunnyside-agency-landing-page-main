@@ -54,7 +54,10 @@ nav button {
 
 header {
   height: 100vh;
-  background-color: gray;
+  background:
+    url(images/icon-arrow-down.svg) no-repeat center top 60%,
+    url(images/mobile/image-header.jpg) center bottom;
+  background-size: auto, cover;
 }
 
 header h1 {
