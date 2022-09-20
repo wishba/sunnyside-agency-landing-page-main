@@ -51,7 +51,6 @@ Users should be able to:
 - [CSS filter Property](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
 - [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp)
 
-
 ## Author
 
 - Frontend Mentor - [@wishba](https://www.frontendmentor.io/profile/wishba)
