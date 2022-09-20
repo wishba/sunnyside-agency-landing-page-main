@@ -49,10 +49,15 @@ nav {
 
 .nav__link {
   display: none;
+  position: absolute;
 }
 
 .nav__link.nav__link-opened {
   display: inline-block;
+}
+
+.nav__link a {
+  display: block;
 }
 
 nav button {
@@ -246,6 +251,7 @@ footer {
   .nav__link {
     margin-left: auto;
     display: inline-block;
+    position: static;
   }
 
   .nav__link a {
@@ -254,6 +260,7 @@ footer {
     font-weight: 600;
     color: var(--White);
     margin: auto 1rem;
+    display: inline-block;
   }
 
   .nav__link .nav__link-contact {
