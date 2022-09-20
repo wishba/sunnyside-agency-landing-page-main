@@ -255,11 +255,13 @@ footer {
     grid-area: 1/2/2/3;
     width: 50vw;
     background: url(images/desktop/image-transform.jpg) center;
+    height: 50vw;
   }
 
   .section__transform-body {
     grid-area: 1/1/2/2;
     width: 50vw;
+    height: 50vw;
   }
 
   .section__stand-container {
@@ -271,23 +273,37 @@ footer {
     grid-area: 1/1/2/2;
     width: 50vw;
     background: url(images/desktop/image-stand-out.jpg) center;
+    height: 50vw;
   }
 
   .section__stand-body {
     grid-area: 1/2/2/3;
     width: 50vw;
+    height: 50vw;
   }
 
   .section__graphic-container {
     grid-area: 3/1/4/2;
     width: 50vw;
     background: url(images/desktop/image-graphic-design.jpg) center;
+    padding-top: 25vw;
+    height: 25vw;
+  }
+
+  .section__graphic-body {
+    height: 25vw;
   }
 
   .section__photo-container {
     grid-area: 3/2/4/3;
     width: 50vw;
     background: url(images/desktop/image-photography.jpg) center;
+    padding-top: 25vw;
+    height: 25vw;
+  }
+
+  .section__photo-body {
+    height: 25vw;
   }
 
   .section__testimonial {
