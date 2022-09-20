@@ -282,7 +282,6 @@ footer {
   .section__testimonial {
     grid-area: 4/1/5/3;
     display: flex;
-    width: 700px;
     margin: 0 auto;
   }
 
@@ -294,6 +293,7 @@ footer {
 
   .section__testimonial div {
     margin: 7rem 1rem 0;
+    max-width: 25rem;
   }
 
   .section__gallery {
