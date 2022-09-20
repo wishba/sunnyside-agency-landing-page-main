@@ -82,3 +82,18 @@ header h1 {
   margin: auto 1rem;
   text-align: center;
 }
+
+.section__transform h2 {
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.section__transform p {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.section__transform button {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: .5em 1em;
+}
