@@ -119,19 +119,30 @@ header h1 {
 }
 
 .section__graphic {
-  height: 50vh;
   background: url(images/mobile/image-graphic-design.jpg) center;
+  color: var(--graphic-design-text);
+}
+
+.section__photo {
+  background: url(images/mobile/image-photography.jpg) center;
+  color: var(--photography-text);
+}
+
+.section__graphic,
+.section__photo {
+  height: 50vh;
   background-size: auto 100vh;
   padding-top: 50vh;
 }
 
-.section__graphic-container {
+.section__graphic-container,
+.section__photo-container {
   display: grid;
   height: 50vh;
 }
 
-.section__graphic-body {
+.section__graphic-body,
+.section__photo-body {
   margin: auto 1rem;
   text-align: center;
-  color: var(--graphic-design-text);
 }
