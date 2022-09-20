@@ -242,6 +242,10 @@ footer {
     background-size: auto, cover;
   }
 
+  header h1 {
+    margin-top: 20%;
+  }
+
   main {
     display: grid;
   }
