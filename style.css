@@ -259,6 +259,7 @@ footer {
     grid-area: 1/2/2/3;
     width: 50vw;
     background: url(images/desktop/image-transform.jpg) center;
+    background-size: auto 50vw;
     height: 50vw;
   }
 
@@ -277,6 +278,7 @@ footer {
     grid-area: 1/1/2/2;
     width: 50vw;
     background: url(images/desktop/image-stand-out.jpg) center;
+    background-size: auto 50vw;
     height: 50vw;
   }
 
@@ -290,6 +292,7 @@ footer {
     grid-area: 3/1/4/2;
     width: 50vw;
     background: url(images/desktop/image-graphic-design.jpg) center;
+    background-size: auto 50vw;
     padding-top: 25vw;
     height: 25vw;
   }
@@ -302,6 +305,7 @@ footer {
     grid-area: 3/2/4/3;
     width: 50vw;
     background: url(images/desktop/image-photography.jpg) center;
+    background-size: auto 50vw;
     padding-top: 25vw;
     height: 25vw;
   }
