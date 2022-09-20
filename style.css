@@ -235,8 +235,13 @@ footer {
 }
 
 @media (min-width:700px) {
+  main {
+    display: grid;
+  }
+
   .section__transform-container {
     display: grid;
+    grid-area: 1/1/2/3;
   }
 
   .section__transform-head {
@@ -251,6 +256,7 @@ footer {
 
   .section__stand-container {
     display: grid;
+    grid-area: 2/1/3/3;
   }
 
   .section__stand-head {
@@ -261,5 +267,23 @@ footer {
   .section__stand-body {
     grid-area: 1/2/2/3;
     width: 50vw;
+  }
+
+  .section__graphic-container {
+    grid-area: 3/1/4/2;
+    width: 50vw;
+  }
+
+  .section__photo-container {
+    grid-area: 3/2/4/3;
+    width: 50vw;
+  }
+
+  .section__testimonial {
+    grid-area: 4/1/5/3;
+  }
+
+  .section__gallery {
+    grid-area: 5/1/6/3;
   }
 }
