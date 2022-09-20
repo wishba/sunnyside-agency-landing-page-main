@@ -146,3 +146,41 @@ header h1 {
   margin: auto 1rem;
   text-align: center;
 }
+
+.section__testimonial {
+  text-align: center;
+  margin: auto 1rem;
+}
+
+.section__testimonial h3 {
+  text-transform: uppercase;
+  letter-spacing: .125em;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: var(--Dark-grayish-blue);
+}
+
+.section__testimonial img {
+  width: 5rem;
+  border-radius: 50%;
+  margin-top: 3rem;
+}
+
+.section__testimonial p {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.section__testimonial p+p {
+  margin: .5rem;
+  color: var(--Very-dark-desaturated-blue);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.section__testimonial p+p+p {
+  margin: .5rem;
+  color: var(--Grayish-blue);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: .8em;
+}
