@@ -202,7 +202,7 @@ footer {
 
 .footer__logo {
   margin-top: 2rem;
-  width: 50vw;
+  width: 10rem;
   filter: var(--footer-filter);
 }
 
