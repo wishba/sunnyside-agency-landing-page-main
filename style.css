@@ -47,18 +47,31 @@ nav {
   padding: 2rem 1rem;
 }
 
-.nav__link {
-  display: none;
-  position: absolute;
-  background-color: var(--White);
+nav img {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav__link.nav__link-opened {
   display: inline-block;
 }
 
+.nav__link {
+  display: none;
+  position: absolute;
+  background-color: var(--White);
+  clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+  width: calc(100vw - 2rem);
+  text-align: center;
+}
+
 .nav__link a {
   display: block;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: var(--Very-dark-grayish-blue);
+  padding: 1rem;
 }
 
 nav button {
@@ -250,10 +263,11 @@ footer {
 
 @media (min-width:700px) {
   .nav__link {
-    margin-left: auto;
+    /* margin-left: auto; */
     display: inline-block;
     position: static;
     background-color: transparent;
+    text-align: right;
   }
 
   .nav__link a {
