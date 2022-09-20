@@ -281,6 +281,19 @@ footer {
 
   .section__testimonial {
     grid-area: 4/1/5/3;
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .section__testimonial h3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .section__testimonial div {
+    margin: 7rem 1rem 0;
   }
 
   .section__gallery {
