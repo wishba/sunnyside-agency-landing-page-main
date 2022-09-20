@@ -132,7 +132,6 @@ header h1 {
 .section__graphic,
 .section__photo {
   height: 50vh;
-  background-size: auto 100vh;
   padding-top: 50vh;
 }
 
