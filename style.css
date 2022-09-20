@@ -117,3 +117,10 @@ header h1 {
   border-radius: .5rem;
   margin-top: 1rem;
 }
+
+
+.section__graphic {
+  height: 100vh;
+  background: url(images/mobile/image-graphic-design.jpg) center;
+  background-size: auto 100vh;
+}
