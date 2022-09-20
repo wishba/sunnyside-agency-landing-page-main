@@ -48,7 +48,7 @@ nav {
 }
 
 nav button {
-  margin-left: auto;
+  display: none;
   background: none;
   border: none;
 }
@@ -235,6 +235,29 @@ footer {
 }
 
 @media (min-width:700px) {
+  .nav__link {
+    margin-left: auto;
+  }
+
+  .nav__link a {
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: var(--White);
+    margin: auto 1rem;
+  }
+
+  .nav__link .nav__link-contact {
+    color: var(--Very-dark-desaturated-blue);
+    background-color: var(--White);
+    padding: .5em 1.5em;
+    border-radius: 3rem;
+  }
+
+  nav button {
+    display: none;
+  }
+
   header {
     background:
       url(images/icon-arrow-down.svg) no-repeat center top 60%,
