@@ -4,6 +4,7 @@
 :root {
   --Soft-red: hsla(7, 99%, 70%, 0.3);
   --Yellow: hsla(51, 100%, 49%, 0.1);
+  --Yellow-btn: hsl(51, 100%, 49%);
   --graphic-design-text: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -72,6 +73,16 @@ nav img {
   font-weight: 600;
   color: var(--Very-dark-grayish-blue);
   padding: 1rem;
+}
+
+.nav__link a.nav__link-contact {
+  background-color: var(--Yellow-btn);
+  color: var(--Very-dark-desaturated-blue);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  width: 7rem;
+  border-radius: 3rem;
+  margin: auto;
 }
 
 nav button {
@@ -279,11 +290,12 @@ footer {
     display: inline-block;
   }
 
-  .nav__link .nav__link-contact {
+  .nav__link a.nav__link-contact {
     color: var(--Very-dark-desaturated-blue);
     background-color: var(--White);
     padding: .5em 1.5em;
     border-radius: 3rem;
+    width: auto;
   }
 
   nav button {
