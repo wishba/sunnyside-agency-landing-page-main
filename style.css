@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
 :root {
-  --Soft-red: hsl(7, 99%, 70%);
-  --Yellow: hsl(51, 100%, 49%);
+  /* --Soft-red: hsl(7, 99%, 70%); */
+  /* --Yellow: hsl(51, 100%, 49%); */
+  --Soft-red: hsla(7, 99%, 70%, 0.3);
+  --Yellow: hsla(51, 100%, 49%, 0.1);
   --graphic-design-text: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -96,4 +98,9 @@ header h1 {
   font-weight: 900;
   text-transform: uppercase;
   padding: .5em 1em;
+  color: var(--Very-dark-desaturated-blue);
+  background: conic-gradient(var(--Yellow) 90deg, var(--Soft-red) 90deg, var(--Soft-red) 270deg, var(--Yellow) 270deg);
+  border: none;
+  border-radius: .5rem;
+  margin-top: 1rem;
 }
