@@ -318,4 +318,8 @@ footer {
       url(images/desktop/image-gallery-sugarcubes.jpg) bottom right no-repeat;
     background-size: 25vw;
   }
+
+  .footer__socials {
+    height: 10rem;
+  }
 }
