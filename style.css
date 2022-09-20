@@ -184,3 +184,13 @@ header h1 {
   font-weight: 600;
   font-size: .8em;
 }
+
+.section__gallery {
+  height: 100vw;
+  background:
+    url(images/mobile/image-gallery-milkbottles.jpg) top left no-repeat,
+    url(images/mobile/image-gallery-orange.jpg) top right no-repeat,
+    url(images/mobile/image-gallery-cone.jpg) bottom left no-repeat,
+    url(images/mobile/image-gallery-sugar-cubes.jpg) bottom right no-repeat;
+  background-size: 50vw;
+}
