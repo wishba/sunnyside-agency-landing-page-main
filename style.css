@@ -9,6 +9,7 @@
   --graphic-design-text: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
+  --footer-bg: hsla(168, 34%, 41%, 0.5);
 
   --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --Very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -186,6 +187,7 @@ header h1 {
 }
 
 .section__gallery {
+  margin-top: 5rem;
   height: 100vw;
   background:
     url(images/mobile/image-gallery-milkbottles.jpg) top left no-repeat,
@@ -193,4 +195,23 @@ header h1 {
     url(images/mobile/image-gallery-cone.jpg) bottom left no-repeat,
     url(images/mobile/image-gallery-sugar-cubes.jpg) bottom right no-repeat;
   background-size: 50vw;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  text-align: center;
+}
+
+.footer__logo,
+.footer__link {
+  margin-top: 2rem;
+}
+
+.footer__socials {
+  display: grid;
+  height: 25vh;
+}
+
+.footer__socials-container {
+  margin: auto 0;
 }
