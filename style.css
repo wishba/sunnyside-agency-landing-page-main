@@ -70,30 +70,43 @@ header h1 {
 }
 
 .section__transform-img {
-  height: 100vw;
   background: url(images/mobile/image-transform.jpg) center;
+}
+
+.section__stand-img {
+  background: url(images/mobile/image-stand-out.jpg) center;
+}
+
+.section__transform-img,
+.section__stand-img {
+  height: 100vw;
   background-size: auto 50vh;
 }
 
-.section__transform-container {
+.section__transform-container,
+.section__stand-container {
   height: calc(100vh - 100vw);
   display: grid;
 }
 
-.section__transform {
+.section__transform,
+.section__stand {
   margin: auto 1rem;
   text-align: center;
 }
 
-.section__transform h2 {
+.section__transform h2,
+.section__stand h2 {
   color: var(--Very-dark-desaturated-blue);
 }
 
-.section__transform p {
+.section__transform p,
+.section__stand p {
   color: var(--Very-dark-grayish-blue);
 }
 
-.section__transform button {
+.section__transform button,
+.section__stand button {
   font-family: 'Fraunces', serif;
   font-weight: 900;
   text-transform: uppercase;
