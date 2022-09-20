@@ -64,6 +64,7 @@ nav img {
   clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
   width: calc(100vw - 2rem);
   text-align: center;
+  padding: 5rem 0 3rem;
 }
 
 .nav__link a {
@@ -274,11 +275,11 @@ footer {
 
 @media (min-width:700px) {
   .nav__link {
-    /* margin-left: auto; */
     display: inline-block;
     position: static;
     background-color: transparent;
     text-align: right;
+    padding: 0;
   }
 
   .nav__link a {
