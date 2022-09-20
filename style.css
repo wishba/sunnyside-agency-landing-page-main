@@ -160,6 +160,7 @@ header h1 {
   font-family: 'Fraunces', serif;
   font-weight: 700;
   color: var(--Dark-grayish-blue);
+  margin-top: 3rem;
 }
 
 .section__testimonial img {
