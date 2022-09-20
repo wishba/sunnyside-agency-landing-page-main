@@ -202,9 +202,17 @@ footer {
   text-align: center;
 }
 
-.footer__logo,
+.footer__logo {
+  margin-top: 2rem;
+  width: 50vw;
+}
+
 .footer__link {
   margin-top: 2rem;
+}
+
+.footer__link button {
+  margin: auto 1rem;
 }
 
 .footer__socials {
@@ -214,4 +222,8 @@ footer {
 
 .footer__socials-container {
   margin: auto 0;
+}
+
+.footer__socials-container button {
+  margin: auto .5rem;
 }
