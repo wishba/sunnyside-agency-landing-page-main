@@ -235,6 +235,13 @@ footer {
 }
 
 @media (min-width:700px) {
+  header {
+    background:
+      url(images/icon-arrow-down.svg) no-repeat center top 60%,
+      url(images/desktop/image-header.jpg) center bottom;
+    background-size: auto, cover;
+  }
+
   main {
     display: grid;
   }
@@ -247,6 +254,7 @@ footer {
   .section__transform-head {
     grid-area: 1/2/2/3;
     width: 50vw;
+    background: url(images/desktop/image-transform.jpg) center;
   }
 
   .section__transform-body {
@@ -262,6 +270,7 @@ footer {
   .section__stand-head {
     grid-area: 1/1/2/2;
     width: 50vw;
+    background: url(images/desktop/image-stand-out.jpg) center;
   }
 
   .section__stand-body {
@@ -272,11 +281,13 @@ footer {
   .section__graphic-container {
     grid-area: 3/1/4/2;
     width: 50vw;
+    background: url(images/desktop/image-graphic-design.jpg) center;
   }
 
   .section__photo-container {
     grid-area: 3/2/4/3;
     width: 50vw;
+    background: url(images/desktop/image-photography.jpg) center;
   }
 
   .section__testimonial {
@@ -298,5 +309,11 @@ footer {
 
   .section__gallery {
     grid-area: 5/1/6/3;
+    background:
+      url(images/desktop/image-gallery-milkbottles.jpg) top left no-repeat,
+      url(images/desktop/image-gallery-orange.jpg) top right no-repeat,
+      url(images/desktop/image-gallery-cone.jpg) bottom left no-repeat,
+      url(images/desktop/image-gallery-sugarcubes.jpg) bottom right no-repeat;
+    background-size: 50vw;
   }
 }
