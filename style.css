@@ -82,7 +82,6 @@ header h1 {
 .section__transform-img,
 .section__stand-img {
   height: 50vh;
-  background-size: auto 50vh;
 }
 
 .section__transform-container,
