@@ -234,4 +234,32 @@ footer {
   border: none;
 }
 
-@media (min-width:700px) {}
+@media (min-width:700px) {
+  .section__transform-container {
+    display: grid;
+  }
+
+  .section__transform-head {
+    grid-area: 1/2/2/3;
+    width: 50vw;
+  }
+
+  .section__transform-body {
+    grid-area: 1/1/2/2;
+    width: 50vw;
+  }
+
+  .section__stand-container {
+    display: grid;
+  }
+
+  .section__stand-head {
+    grid-area: 1/1/2/2;
+    width: 50vw;
+  }
+
+  .section__stand-body {
+    grid-area: 1/2/2/3;
+    width: 50vw;
+  }
+}
