@@ -70,7 +70,7 @@ header h1 {
 .section__transform-img {
   height: 100vw;
   background: url(images/mobile/image-transform.jpg) center;
-  background-size: contain;
+  background-size: auto 50vh;
 }
 
 .section__transform-container {
