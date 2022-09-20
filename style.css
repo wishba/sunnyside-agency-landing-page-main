@@ -213,6 +213,11 @@ footer {
 
 .footer__link button {
   margin: auto 1rem;
+  color: var(--footer);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  background: none;
+  border: none;
 }
 
 .footer__socials {
@@ -226,4 +231,6 @@ footer {
 
 .footer__socials-container button {
   margin: auto .5rem;
+  background: none;
+  border: none;
 }
