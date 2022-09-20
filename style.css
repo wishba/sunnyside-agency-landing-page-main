@@ -90,10 +90,14 @@ nav img {
   margin: auto;
 }
 
-nav button {
+.nav__button {
   margin-left: auto;
   background: none;
   border: none;
+}
+
+.nav__button.nav__button-hide {
+  display: none;
 }
 
 header {
@@ -303,7 +307,7 @@ footer {
     width: auto;
   }
 
-  nav button {
+  .nav__button {
     display: none;
   }
 
