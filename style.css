@@ -309,11 +309,13 @@ footer {
 
   .section__gallery {
     grid-area: 5/1/6/3;
+    margin-top: 3rem;
+    height: 40vw;
     background:
-      url(images/desktop/image-gallery-milkbottles.jpg) top left no-repeat,
-      url(images/desktop/image-gallery-orange.jpg) top right no-repeat,
-      url(images/desktop/image-gallery-cone.jpg) bottom left no-repeat,
+      url(images/desktop/image-gallery-milkbottles.jpg) bottom left no-repeat,
+      url(images/desktop/image-gallery-orange.jpg) bottom left 25vw no-repeat,
+      url(images/desktop/image-gallery-cone.jpg) bottom left 50vw no-repeat,
       url(images/desktop/image-gallery-sugarcubes.jpg) bottom right no-repeat;
-    background-size: 50vw;
+    background-size: 25vw;
   }
 }
