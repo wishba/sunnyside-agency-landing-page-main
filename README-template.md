@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-responsive-using-flex-and-grid-uQSUuOnTya)
+- Live Site URL: [Live site](https://wishba.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
@@ -54,6 +54,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@wishba](https://www.frontendmentor.io/profile/wishba)
+- Twitter - [@wishba_](https://twitter.com/wishba_)
