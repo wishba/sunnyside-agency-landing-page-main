@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
 :root {
-  /* --Soft-red: hsl(7, 99%, 70%); */
-  /* --Yellow: hsl(51, 100%, 49%); */
   --Soft-red: hsla(7, 99%, 70%, 0.3);
   --Yellow: hsla(51, 100%, 49%, 0.1);
   --graphic-design-text: hsl(167, 40%, 24%);
@@ -71,21 +69,21 @@ header h1 {
   margin-top: 40%;
 }
 
-.section__transform-img {
+.section__transform-head {
   background: url(images/mobile/image-transform.jpg) center;
 }
 
-.section__stand-img {
+.section__stand-head {
   background: url(images/mobile/image-stand-out.jpg) center;
 }
 
-.section__transform-img,
-.section__stand-img {
+.section__transform-head,
+.section__stand-head {
   height: 50vh;
 }
 
-.section__transform-container,
-.section__stand-container {
+.section__transform-body,
+.section__stand-body {
   height: 50vh;
   display: grid;
 }
@@ -119,30 +117,30 @@ header h1 {
   margin-top: 1rem;
 }
 
-.section__graphic {
+.section__graphic-container {
   background: url(images/mobile/image-graphic-design.jpg) center;
   color: var(--graphic-design-text);
 }
 
-.section__photo {
+.section__photo-container {
   background: url(images/mobile/image-photography.jpg) center;
   color: var(--photography-text);
 }
 
-.section__graphic,
-.section__photo {
+.section__graphic-container,
+.section__photo-container {
   height: 50vh;
   padding-top: 50vh;
 }
 
-.section__graphic-container,
-.section__photo-container {
+.section__graphic-body,
+.section__photo-body {
   display: grid;
   height: 50vh;
 }
 
-.section__graphic-body,
-.section__photo-body {
+.section__graphic,
+.section__photo {
   margin: auto 1rem;
   text-align: center;
 }
@@ -235,3 +233,5 @@ footer {
   background: none;
   border: none;
 }
+
+@media (min-width:700px) {}
