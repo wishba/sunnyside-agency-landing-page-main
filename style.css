@@ -119,24 +119,21 @@ header h1 {
   margin-top: 40%;
 }
 
-.section__transform,
-.section__stand {
+.flex__body {
   margin: auto 1rem;
   text-align: center;
 }
 
-.section__transform h2,
-.section__stand h2 {
+.flex__body h2 {
   color: var(--Very-dark-desaturated-blue);
+  margin-top: 4rem;
 }
 
-.section__transform p,
-.section__stand p {
+.flex__body p {
   color: var(--Very-dark-grayish-blue);
 }
 
-.section__transform button,
-.section__stand button {
+.flex__body button {
   font-family: 'Fraunces', serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -145,7 +142,7 @@ header h1 {
   background: conic-gradient(var(--Yellow) 90deg, var(--Soft-red) 90deg, var(--Soft-red) 270deg, var(--Yellow) 270deg);
   border: none;
   border-radius: .5rem;
-  margin-top: 1rem;
+  margin: 1rem 0 4rem;
 }
 
 .section__testimonial {
@@ -277,30 +274,18 @@ footer {
     margin-top: 10%;
   }
 
-  main {
-    display: grid;
+  .flex {
+    display: flex;
+    align-items: center;
   }
 
-  .section__transform-container {
-    display: grid;
-    grid-area: 1/1/2/3;
+  .flex>* {
+    width: 50%;
+    margin: 0;
   }
 
-  .section__transform {
-    text-align: left;
-    width: 25rem;
-    margin: auto;
-  }
-
-  .section__stand-container {
-    display: grid;
-    grid-area: 2/1/3/3;
-  }
-
-  .section__stand {
-    text-align: left;
-    width: 25rem;
-    margin: auto;
+  .flex__reverse {
+    flex-direction: row-reverse;
   }
 
   .section__testimonial {
