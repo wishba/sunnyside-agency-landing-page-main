@@ -154,7 +154,7 @@ header h1 {
   text-align: center;
   height: 100vh;
   position: relative;
-  background-position: center;
+  background-size: cover;
 }
 
 .graphic__container {
@@ -171,11 +171,13 @@ header h1 {
 .photo {
   position: absolute;
   top: 70%;
+  width: 100%;
 }
 
 .section__testimonial {
   text-align: center;
   margin: auto 1rem;
+  justify-content: center;
 }
 
 .section__testimonial h3 {
@@ -316,6 +318,10 @@ footer {
     flex-direction: row-reverse;
   }
 
+  .flex__copy {
+    margin: 1rem;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -324,6 +330,10 @@ footer {
   .graphic__container,
   .photo__container {
     height: 50vw;
+  }
+
+  .graphic P {
+    margin: 1rem;
   }
 
   .section__testimonial {
