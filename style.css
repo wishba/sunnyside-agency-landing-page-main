@@ -9,13 +9,14 @@
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
   --footer-bg: hsla(168, 34%, 41%, 0.5);
-  --footer-filter: invert(46%) sepia(47%) saturate(409%) hue-rotate(118deg) brightness(96%) contrast(83%);
+  --footer-filter: invert(49%) sepia(10%) saturate(1875%) hue-rotate(118deg) brightness(96%) contrast(80%);
 
   --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --Very-dark-grayish-blue: hsl(213, 9%, 39%);
   --Dark-grayish-blue: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
+  --White-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(322deg) brightness(102%) contrast(101%);
 }
 
 body {
@@ -245,6 +246,10 @@ footer {
   margin-top: 2rem;
 }
 
+.footer__link button:hover {
+  color: var(--White);
+}
+
 .footer__link button {
   margin: auto 1rem;
   color: var(--footer);
@@ -267,6 +272,10 @@ footer {
   margin: auto .5rem;
   background: none;
   border: none;
+}
+
+.footer__socials-container img:hover {
+  filter: var(--White-filter);
 }
 
 @media (min-width:900px) {
@@ -292,6 +301,12 @@ footer {
 
   .nav__contact {
     background-color: var(--White);
+    border: 1px solid var(--White);
+  }
+
+  .nav__contact:hover {
+    background-color: transparent;
+    color: var(--White);
   }
 
   .nav__button {
