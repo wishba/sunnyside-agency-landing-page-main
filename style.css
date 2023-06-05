@@ -149,6 +149,30 @@ header h1 {
   margin: 1rem 0 4rem;
 }
 
+.graphic__container,
+.photo__container {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+}
+
+.graphic__container {
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  color: var(--graphic-design-text);
+}
+
+.photo__container {
+  background-image: url(images/mobile/image-photography.jpg);
+  color: var(--photography-text);
+}
+
+.graphic,
+.photo {
+  position: absolute;
+  top: 70%;
+}
+
 .section__testimonial {
   text-align: center;
   margin: auto 1rem;
@@ -290,6 +314,16 @@ footer {
 
   .flex__reverse {
     flex-direction: row-reverse;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .graphic__container,
+  .photo__container {
+    height: 50vw;
   }
 
   .section__testimonial {
