@@ -7,22 +7,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script defer src="script.js"></script>
 </head>
 
 <body>
   <header>
     <nav>
       <img src="images/logo.svg" alt="Sunnyside logo">
-      <div id="navLink" class="nav__link">
-        <div class="">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Project</a>
-          <a class="nav__link-contact" href="#">Contact</a>
-        </div>
-      </div>
-      <button class="nav__button" id="navBtn" onclick="showNav()" onblur="closeNav()">
+
+      <ul id="menu-list" class="nav__menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Project</a></li>
+        <li><button class="nav__contact">CONTACT</button></li>
+      </ul>
+
+      <button id="menu-button" class="nav__button">
         <img src="images/icon-hamburger.svg" alt="menu">
       </button>
     </nav>
@@ -32,57 +32,53 @@
 
   <main>
     <section class="section__transform-container">
-      <div class="section__transform-head"></div>
-      <div class="section__transform-body">
-        <div class="section__transform">
-          <h2>Transform your brand</h2>
-          <p>
-            We are a full-service creative agency specializing in helping brands grow fast.
-            Engage your clients through compelling visuals that do most of the marketing for you.
-          </p>
-          <button>Learn more</button>
-        </div>
+      <div>
+        <img src="images/desktop/image-transform.jpg" alt="transform">
+      </div>
+
+      <div class="section__transform">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <button>Learn more</button>
       </div>
     </section>
 
     <section class="section__stand-container">
-      <div class="section__stand-head"></div>
-      <div class="section__stand-body">
-        <div class="section__stand">
-          <h2>Stand out to the right audience</h2>
-          <p>
-            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
-            we’ll
-            build
-            and extend your brand in digital places.
-          </p>
-          <button>Learn more</button>
-        </div>
+      <div>
+        <img src="images/desktop/image-stand-out.jpg" alt="stand out">
+      </div>
+
+      <div class="section__stand">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+          we’ll
+          build
+          and extend your brand in digital places.
+        </p>
+        <button>Learn more</button>
       </div>
     </section>
 
-    <section class="section__graphic-container">
-      <div class="section__graphic-body">
-        <div class="section__graphic">
-          <h2>Graphic design</h2>
-          <p>
-            Great design makes you memorable. We deliver artwork that underscores your brand message and captures
-            potential
-            clients’ attention.
-          </p>
-        </div>
+    <section>
+      <div>
+        <h3>Graphic design</h3>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential
+          clients’ attention.
+        </p>
       </div>
-    </section>
 
-    <section class="section__photo-container">
-      <div class="section__photo-body">
-        <div class="section__photo">
-          <h2>Photography</h2>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality photos that improve your business
-            image.
-          </p>
-        </div>
+      <div>
+        <h3>Photography</h3>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business
+          image.
+        </p>
       </div>
     </section>
 
@@ -125,11 +121,13 @@
 
   <footer>
     <img class="footer__logo" src="images/logo.svg" alt="Sunnyside logo">
+
     <div class="footer__link">
       <button>About</button>
       <button>Services</button>
       <button>Projects</button>
     </div>
+
     <div class="footer__socials">
       <div class="footer__socials-container">
         <button><img src="images/icon-facebook.svg" alt="facebook"></button>
@@ -138,6 +136,7 @@
         <button><img src="images/icon-pinterest.svg" alt="pinterest"></button>
       </div>
     </div>
+
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/wishba" target="_blank">Wisnu Bayu</a>.
