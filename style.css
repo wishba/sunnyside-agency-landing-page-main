@@ -155,6 +155,7 @@ header h1 {
   text-align: center;
   height: 100vh;
   position: relative;
+  background-position: center;
   background-size: cover;
 }
 
@@ -350,6 +351,7 @@ footer {
   .graphic__container,
   .photo__container {
     height: 50vw;
+    background-position: 50% 30%;
   }
 
   .graphic P {
