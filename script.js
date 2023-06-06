@@ -1,12 +1,12 @@
-const MENU_LIST = document.getElementById('menu-list');
-const MENU_BUTTON = document.getElementById('menu-button');
+const MENU = document.getElementById('nav-menu');
+const BUTTON = document.getElementById('nav-button');
 
-MENU_BUTTON.addEventListener('click', () => {
-  MENU_LIST.classList.toggle("nav__menu--opened");
+BUTTON.addEventListener('click', () => {
+  MENU.classList.toggle("nav__menu--opened");
 })
 
 window.addEventListener('click', (e) => {
-  if (!MENU_LIST.contains(e.target) && !MENU_BUTTON.contains(e.target) && MENU_LIST.classList.contains('nav__menu--opened')) {
-    MENU_LIST.classList.remove('nav__menu--opened');
+  if (!MENU.contains(e.target) && !BUTTON.contains(e.target) && MENU.classList.contains('nav__menu--opened')) {
+    MENU.classList.remove('nav__menu--opened');
   }
 });

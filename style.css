@@ -181,13 +181,13 @@ header h1 {
   margin: 1rem;
 }
 
-.section__testimonial {
+.testimonial {
   text-align: center;
   margin: auto 1rem;
   justify-content: center;
 }
 
-.section__testimonial h3 {
+.testimonial h3 {
   text-transform: uppercase;
   letter-spacing: .125em;
   font-family: 'Fraunces', serif;
@@ -196,24 +196,24 @@ header h1 {
   margin-top: 3rem;
 }
 
-.section__testimonial img {
+.testimonial img {
   width: 5rem;
   border-radius: 50%;
   margin-top: 3rem;
 }
 
-.section__testimonial p {
+.testimonial p {
   color: var(--Very-dark-grayish-blue);
 }
 
-.section__testimonial p+p {
+.testimonial p+p {
   margin: .5rem;
   color: var(--Very-dark-desaturated-blue);
   font-family: 'Fraunces', serif;
   font-weight: 700;
 }
 
-.section__testimonial p+p+p {
+.testimonial p+p+p {
   margin: .5rem;
   color: var(--Grayish-blue);
   font-family: 'Barlow', sans-serif;
@@ -221,7 +221,7 @@ header h1 {
   font-size: .8em;
 }
 
-.section__gallery {
+.gallery {
   margin-top: 5rem;
   height: 100vw;
   background:
@@ -358,24 +358,24 @@ footer {
     margin: 1rem;
   }
 
-  .section__testimonial {
+  .testimonial {
     grid-area: 4/1/5/3;
     display: flex;
     margin: 0 auto;
   }
 
-  .section__testimonial h3 {
+  .testimonial h3 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .section__testimonial div {
+  .testimonial div {
     margin: 7rem 1rem 0;
     max-width: 25rem;
   }
 
-  .section__gallery {
+  .gallery {
     grid-area: 5/1/6/3;
     margin-top: 3rem;
     height: 40vw;
