@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+:root {
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphic-design-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+  --footer-background: hsla(168, 34%, 41%, 0.5);
+
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+
+header {
+  background-image: url(images/desktop/image-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.graphic,
+.photography {
+  height: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-content: end;
+}
+
+.graphic {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+}
+
+.photography {
+  background-image: url(images/desktop/image-photography.jpg);
+}
+
+.client ul {
+  list-style: none;
+  padding: 0;
+}
+
+.client img {
+  border-radius: 50%;
+}
+
+.gallery {
+  background-image:
+    url(images/desktop/image-gallery-milkbottles.jpg),
+    url(images/desktop/image-gallery-orange.jpg),
+    url(images/desktop/image-gallery-cone.jpg),
+    url(images/desktop/image-gallery-sugarcubes.jpg);
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 50vw 50vw;
+  background-position:
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+}
+
+footer {
+  background-color: var(--footer-background);
+}
+
+footer svg {
+  color: var(--footer);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:600px) {
+  nav ul {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+  }
+}
+
+@media (min-width:600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .transform,
+  .stand {
+    text-align: left;
+  }
+
+  .transform div,
+  .stand div {
+    margin: auto;
+  }
+
+  .transform--reverse {
+    grid-area: 1/2/2/3;
+  }
+
+  .graphic,
+  .photography {
+    height: 50vw;
+  }
+
+  .client ul {
+    display: flex;
+  }
+
+  .gallery {
+    height: 30vw;
+    background-size: 25vw;
+    background-position:
+      0 0,
+      25vw 0,
+      50vw 0,
+      75vw 0;
+  }
+}
