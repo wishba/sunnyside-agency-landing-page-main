@@ -3,7 +3,9 @@
 
 :root {
   --soft-red: hsla(7, 99%, 70%, 0.5);
+  --soft-red-hover: hsl(7, 99%, 70%);
   --yellow: hsla(51, 100%, 49%, 0.5);
+  --yellow-hover: hsl(51, 100%, 49%);
   --graphic-design-text: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -14,6 +16,7 @@
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
+  --white-hover: hsla(0, 0%, 100%, 0.5);
 }
 
 h1 {
@@ -130,6 +133,14 @@ nav a {
   background-color: var(--yellow);
 }
 
+.transform a:hover::after {
+  background-color: var(--soft-red-hover);
+}
+
+.stand a:hover::after {
+  background-color: var(--yellow-hover);
+}
+
 .graphic,
 .photography {
   height: 100vw;
@@ -219,6 +230,10 @@ footer a {
   color: inherit;
 }
 
+footer a:hover {
+  color: var(--white);
+}
+
 .footer__logo,
 .footer__link {
   color: var(--footer);
@@ -232,6 +247,14 @@ footer a {
 .footer__social {
   margin-top: 4.5rem;
   gap: 1.5rem;
+}
+
+.footer__social svg {
+  color: var(--footer);
+}
+
+.footer__social svg:hover {
+  color: var(--white);
 }
 
 .footer__attribution {
@@ -280,6 +303,11 @@ footer a {
 
   nav li:last-child a {
     background-color: var(--white);
+  }
+
+  nav li:last-child a:hover {
+    color: var(--white);
+    background-color: var(--white-hover);
   }
 
   nav a {
