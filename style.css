@@ -251,6 +251,10 @@ footer a {
     left: 1.5rem;
     background-color: var(--white);
   }
+
+  nav ul.opened {
+    display: block;
+  }
 }
 
 @media (min-width:600px) {
