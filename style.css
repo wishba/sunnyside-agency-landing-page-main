@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
 
 :root {
-  --soft-red: hsl(7, 99%, 70%);
-  --yellow: hsl(51, 100%, 49%);
+  --soft-red: hsla(7, 99%, 70%, 0.5);
+  --yellow: hsla(51, 100%, 49%, 0.5);
   --graphic-design-text: hsl(167, 40%, 24%);
   --photography-text: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -19,11 +19,20 @@
 h1 {
   font-family: 'Fraunces', serif;
   font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: var(--white);
 }
 
 h2 {
   font-family: 'Fraunces', serif;
   font-weight: 700;
+  font-size: 2rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+p {
+  color: var(--very-dark-grayish-blue);
 }
 
 img {
@@ -80,6 +89,47 @@ nav a {
   color: var(--very-dark-grayish-blue);
 }
 
+.transform div,
+.stand div {
+  padding: 4rem 2.5rem;
+}
+
+.transform h2,
+.stand h2 {
+  margin-top: 0;
+}
+
+.transform a,
+.stand a {
+  position: relative;
+  font-family: 'Fraunces', serif;
+  color: var(--very-dark-desaturated-blue);
+  text-decoration: none;
+}
+
+.transform a::after,
+.stand a::after {
+  position: absolute;
+  z-index: -1;
+  top: .9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  display: block;
+  background-color: var(--soft-red);
+  width: 8rem;
+  height: .5rem;
+  border-radius: .5rem;
+}
+
+.transform a::after {
+  background-color: var(--soft-red);
+}
+
+.stand a::after {
+  background-color: var(--yellow);
+}
+
 .graphic,
 .photography {
   height: 100vw;
@@ -97,6 +147,19 @@ nav a {
   background-image: url(images/desktop/image-photography.jpg);
 }
 
+.graphic p,
+.photography p {
+  max-width: 38ch;
+  margin: auto auto 4rem;
+}
+
+.client h2 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: var(--grayish-blue);
+  margin: 4rem auto;
+}
+
 .client ul {
   list-style: none;
   padding: 0;
@@ -104,6 +167,22 @@ nav a {
 
 .client img {
   border-radius: 50%;
+}
+
+.client p:nth-child(2) {
+  max-width: 32ch;
+  margin: 2rem auto;
+}
+
+.client p:nth-child(3) {
+  color: var(--very-dark-desaturated-blue);
+  font-family: 'Fraunces', serif;
+  margin-top: 2rem;
+}
+
+.client p:nth-child(4) {
+  color: var(--grayish-blue);
+  margin: 1rem auto 4.5rem;
 }
 
 .gallery {
@@ -124,11 +203,9 @@ nav a {
 
 footer {
   background-color: var(--footer-background);
+  padding-top: 4.5rem;
 }
 
-footer svg {
-  color: var(--footer);
-}
 
 footer ul {
   list-style: none;
@@ -142,12 +219,27 @@ footer a {
   color: inherit;
 }
 
-.attribution {
+.footer__logo,
+.footer__link {
+  color: var(--footer);
+}
+
+.footer__link {
+  margin-top: 2.5rem;
+  gap: 3.5rem;
+}
+
+.footer__social {
+  margin-top: 4.5rem;
+  gap: 1.5rem;
+}
+
+.footer__attribution {
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+.footer__attribution a {
   color: hsl(228, 45%, 44%);
 }
 
@@ -204,6 +296,14 @@ footer a {
     margin: auto;
   }
 
+  .transform div {
+    padding: 0 7.5vw 0 10vw;
+  }
+
+  .stand div {
+    padding: 0 10vw 0 7.5vw;
+  }
+
   .transform--reverse {
     grid-area: 1/2/2/3;
   }
@@ -215,6 +315,8 @@ footer a {
 
   .client ul {
     display: flex;
+    gap: 2rem;
+    justify-content: center;
   }
 
   .gallery {
