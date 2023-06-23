@@ -54,4 +54,4 @@ Users should be able to:
 ## Author
 
 -   Frontend Mentor - [@wishba](https://www.frontendmentor.io/profile/wishba)
--   Twitter - [@wishba\_](https://twitter.com/wishba_)
+-   [wishba.github.io](http://wishba.github.io/)
