@@ -332,6 +332,11 @@ footer a:hover {
     padding: 0 7.5vw 0 10vw;
   }
 
+  .transform__image,
+  .stand__image {
+    width: 50vw;
+  }
+
   .stand div {
     padding: 0 10vw 0 7.5vw;
   }
